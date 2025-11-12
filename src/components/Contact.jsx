@@ -1,22 +1,29 @@
 import React from "react"
-import {FaGithub  } from "react-icons/fa";
+import { MdEmail } from "react-icons/md"; 
+
+import {FaGithub,FaEnvelope } from "react-icons/fa";
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-zinc-200 sm:text-sm text-black-300">
-      <div className="max-w-4xl mx-auto text-center px-6">
-        <h2 className="font-bold text-green-500mb-8 sm:flex-col">Let's Work Together</h2>
-        <p className="text-xl mb-8 sm:flex-col">abejeashenafi460@gmail.com • +251929494039</p>
-        <div className="flex justify-center gap-8 text-4xl">
-      <a
-  href="https://github.com/abejeashenafi460-marker"  // your real username
+    <section id="contact" className="py-20 bg-zinc-200 sm:text-sm text-black-300 flex">
+      <div className="max-w-4xl mx-auto text-center px-6 lg:flex">
+       <p className="sm:text-sm  sm:text-gray-400 lg:text-top">lets do together contact me with the following addresses</p>
+ <a href="https://github.com/abejeashenafi460-maker/ashu.git"  // your real username
   target="_blank"
   rel="noopener noreferrer"
   className="text-gray-800 text-4xl hover:text-gray-600 transition-colors"
 >
   <FaGithub />
 </a>
-      </div>
-      </div>
-    </section>
+    
+   <a
+  href="mailto:abejeashenafi460@gmail.com"  // your real username
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-800 text-4xl hover:text-gray-600 transition-colors"
+>
+  <MdEmail />
+</a>
+ </div>
+</section>
   )
 }

@@ -51,7 +51,7 @@ export default function Experience() {
             <div className="timeline-content right bg-gradient-to-bl from-orange-50 to-white border-r-4 border-orange-500">
               <div className="flex items-center mb-2">
                 <FaHandsHelping className="text-orange-600 mr-2 text-lg" />
-                <h3 className="text-xl font-semibold">internstiop program practice</h3>
+                <h3 className="text-xl font-semibold">internship program practice</h3>
               </div>
               <p className="text-lg font-medium text-orange-700">michot IT solution</p>
               
